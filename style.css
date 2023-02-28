@@ -19,26 +19,26 @@ body {
   height: 100vh;
   width: 100%;
   background-color: var(--Cream);
-  font-family: "Manrope", sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
   overflow-x: hidden;
 }
 .container {
-  margin: 10rem auto;
+  margin: 16rem auto 9.6rem;
   display: flex;
-  max-width: 35%;
+  max-width: 37%;
   overflow: hidden;
   border-radius: 1rem;
 }
 .heading--primary {
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   font-weight: 700;
-  font-size: 3.2rem;
+  font-size: 3rem;
   letter-spacing: -0.7px;
 }
 .product--img {
   width: 49%;
-  background: url("./images/image-product-desktop.jpg") no-repeat;
+  background: url('./images/image-product-desktop.jpg') no-repeat;
   background-size: cover;
 }
 .product--details {
@@ -47,30 +47,30 @@ body {
   /* align-items: center; */
   max-width: 51%;
   background-color: var(--White);
-  padding: 2.4rem 2.4rem;
-  font-family: "Fraunces", serif;
+  padding: 3rem 2.4rem 3rem 3rem;
+  font-family: 'Fraunces', serif;
   gap: 2rem;
 }
 .product--category {
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.6rem;
   align-self: flex-start;
   color: hsl(228, 12%, 48%);
   font-weight: 700;
-  font-size: 1rem;
-  font-family: "Manrope", sans-serif;
+  font-size: 1.05rem;
+  font-family: 'Manrope', sans-serif;
   /* font-family: "Fraunces", serif; */
 }
 
 .product--description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   color: hsl(228, 12%, 48%);
-  line-height: 1.5;
+  line-height: 1.6;
   font-weight: 500;
 }
 .pricing {
   display: flex;
   align-items: center;
-  font-family: "Fraunces", serif;
+  font-family: 'Fraunces', serif;
   gap: 2rem;
 }
 .pricing p:nth-child(1) {
@@ -114,19 +114,22 @@ body {
   .container {
     flex-direction: column;
     align-items: center;
-    margin: 4% 3.2%;
-    max-width: 90%;
+    margin: 8% 4%;
+    max-width: 100%;
   }
   .product--img {
-    height: 21rem;
+    height: 38vh;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
     background-image: url(./images/image-product-mobile.jpg);
   }
   .product--category {
-    font-size: 1.2r4;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
   }
   .heading--primary {
-    font-size: 2.4rem;
+    font-size: 3rem;
   }
   .product--details {
     max-width: 100%;
@@ -134,7 +137,7 @@ body {
     gap: 1.2rem;
   }
   .product--description {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 520;
     margin-bottom: 3.2rem;
   }
