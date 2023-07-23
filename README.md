@@ -1,5 +1,5 @@
 # The project is live at
-https://front-end-mentor-works.github.io/product-preview-card/
+https://sinan14.github.io/product-preview-card/
 # Frontend Mentor - Product preview card component
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
